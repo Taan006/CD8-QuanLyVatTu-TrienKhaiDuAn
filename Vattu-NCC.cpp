@@ -34,7 +34,7 @@ class Vattu : public Entity{
 			dongia = NhapSocapnhat("Don gia", dongia);
 		}
 		
-		void Xuat() const override{
+		void xuat() const override{
 			cout << fixed << setprecision(0) << left << setw(10) << ma << "| "
 			<< setw(20) << ten << "| "
 			<< setw(15) << soluong << "| "
@@ -74,7 +74,7 @@ class Nhacungcap : public Entity{
 			vattucungcap = NhapChucapnhat("Sua vat tu cung cap", vattucungcap);
 		}
 		
-		void Xuat() const override {
+		void xuat() const override {
 			cout << left << setw(10) << ma << "| "
 			<< setw(20) << tenncc << "| "
 			<< setw(20) << diachi << "| "
